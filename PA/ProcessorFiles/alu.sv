@@ -1,5 +1,5 @@
 module alu (
-    input  logic [1:0] op,        // 0=ADD, 1=SUB, 2=MUL
+    input  logic [1:0] op,        // 1=ADD, 2=SUB, 3=MUL
     input  logic [31:0] a,         
     input  logic [31:0] b,        
     output logic [31:0] result    // Result
@@ -14,4 +14,5 @@ module alu (
         endcase
     end
     
+
 endmodule
